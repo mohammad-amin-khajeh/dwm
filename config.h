@@ -902,7 +902,7 @@ static const char *statuscmd[] = { "/bin/sh", "-c", NULL, NULL };
 #endif // BAR_STATUSCMD_PATCH
 
 #if ON_EMPTY_KEYS_PATCH
-static const char* lfcmd[]      = {"st", "-e", "lf", NULL};
+static const char* yazicmd[]      = {"st", "-e", "yazi", NULL};
 static const char* firefoxcmd[] = {"firefox", NULL};
 static const char* telegramcmd[]= {"telegram-desktop", NULL};
 static const char* stcmd[]      = {"st", NULL};
@@ -911,7 +911,7 @@ static const char* ankicmd[]    = {"anki", NULL};
 static const char* nekoraycmd[] = {"nekoray", NULL};
 static const Key on_empty_keys[] = {
 	/* modifier key            function                argument */
-	{ MODKEY,        XK_e,          spawn,                  {.v = lfcmd } },
+	{ MODKEY,        XK_e,          spawn,                  {.v = yazicmd } },
 	{ MODKEY,        XK_b,          spawn,                  {.v = firefoxcmd } },
 	{ MODKEY,        XK_t,          spawn,                  {.v = telegramcmd } },
 	{ MODKEY,        XK_f,          spawn,                  {.v = stcmd } },
