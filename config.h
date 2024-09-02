@@ -504,11 +504,12 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "TOOLBAR",       .isfloating = 1)
 	RULE(.wintype = WTYPE "SPLASH",        .isfloating = 1)
   /*RULE(.role = )*/
-	RULE(.title = "^Browse.*",						 .isfloating = 1)
-	RULE(.class = "Lxappearance",      		 .isfloating = 1)
+	RULE(.title = "^Browse.*",             .isfloating = 1)
+	RULE(.class = "Lxappearance",          .isfloating = 1)
 	RULE(.class = "xterm-256color",        .isterminal = 1)
+	RULE(.class = "st-256color",           .isterminal = 1)
 	RULE(.class = "Nsxiv",                 .noswallow  = 1)
-	RULE(.class ="TelegramDesktop", 	     .tags = 4)
+	RULE(.class ="TelegramDesktop",        .tags = 4)
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	// RULE(.class = "Firefox", .tags = 1 << 7)
 	#if RENAMED_SCRATCHPADS_PATCH
