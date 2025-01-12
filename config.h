@@ -167,7 +167,7 @@ static const char *fonts[]               = {
                                           "FontAwesome:pixelsize=14:antialias=true:autohint=true",
                                           "Noto Sans CJK JP:pixelsize=14:style=regular:antialias=true:autohint=true",
                                           "joyPixels:pixelsize=14:antialias=true:autohint=true",
-                                          "Arial:pixelsize=14:antialias=true:autohint=true",
+                                          "Arial:pixelsize=14:antialias=true:autohint=true:style=bold",
                                           };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "monospace:size=10";
