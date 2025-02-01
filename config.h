@@ -506,6 +506,7 @@ static const Rule rules[] = {
   /*RULE(.role = )*/
 	RULE(.title = "^Browse.*",             .isfloating = 1)
 	RULE(.class = "Lxappearance",          .isfloating = 1)
+	RULE(.class = "termFloat",             .isfloating = 1)
 	RULE(.class = "xterm-256color",        .isterminal = 1)
 	RULE(.class = "st-256color",           .isterminal = 1)
 	RULE(.class = "Nsxiv",                 .noswallow  = 1)
