@@ -730,7 +730,7 @@
  * When pressed again it shows the bar and restores the layout that was active
  * before going fullscreen. https://dwm.suckless.org/patches/fullscreen/
  */
-#define FULLSCREEN_PATCH 1
+#define FULLSCREEN_PATCH 0
 
 /* This patch provides a keybinding to rotate all clients in the currently
  * selected area (master or stack) without affecting the other area.
@@ -787,7 +787,7 @@
  * ensures that in such scenarios the previous window loses fullscreen.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-losefullscreen-6.2.diff
  */
-#define LOSEFULLSCREEN_PATCH 0
+#define LOSEFULLSCREEN_PATCH 1
 
 /* This patch adds helper functions for maximizing, horizontally and vertically,
  * floating windows using keybindings.
