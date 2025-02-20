@@ -861,7 +861,7 @@ static const char *xkb_layouts[]  = {
 #endif // STACKER_PATCH
 
 #if BAR_HOLDBAR_PATCH
-#define HOLDKEY 0 // replace 0 with the keysym to activate holdbar
+#define HOLDKEY XK_v // replace 0 with the keysym to activate holdbar
 #endif // BAR_HOLDBAR_PATCH
 
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
@@ -1111,7 +1111,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_u,          focusurgent,            {0} },
 	#endif // FOCUSURGENT_PATCH
 	#if BAR_HOLDBAR_PATCH
-	{ 0,                            HOLDKEY,       holdbar,                {0} },
+	{ MODKEY|Mod1Mask,              HOLDKEY,       holdbar,                {0} },
 	#endif // BAR_HOLDBAR_PATCH
 	#if WINVIEW_PATCH
 	{ MODKEY,                       XK_o,          winview,                {0} },
