@@ -510,7 +510,6 @@ static const Rule rules[] = {
 	RULE(.class = "termFloat",             .isfloating = 1)
 	RULE(.class = "xterm-256color",        .isterminal = 1)
 	RULE(.class = "st-256color",           .isterminal = 1)
-	RULE(.class = "Nsxiv",                 .noswallow  = 1)
 	RULE(.class ="TelegramDesktop",        .tags = 4)
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	// RULE(.class = "Firefox", .tags = 1 << 7)
