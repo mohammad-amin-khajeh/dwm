@@ -163,12 +163,12 @@ static void (*bartabmonfns[])(Monitor *) = { dwindle /* , customlayoutfn */ };
 static const char font[]                 = "caskaydiaCove NF:pixelsize=13";
 #else
 static const char *fonts[] = {
-    "caskaydiaCove NF:pixelsize=14:style=bold",
-    "noto color emoji:pixelsize=14:style=bold",
-    "joyPixels:pixelsize=14:style=bold",
-    "FontAwesome:pixelsize=14:style=bold",
-    "Noto Sans CJK JP:pixelsize=14:style=bold",
-    "Arial:pixelsize=14:style=bold",
+    "caskaydiaCove NF:pixelsize=16:style=bold",
+    "noto color emoji:pixelsize=16:style=bold",
+    "joyPixels:pixelsize=16:style=bold",
+    "FontAwesome:pixelsize=16:style=bold",
+    "Noto Sans CJK JP:pixelsize=16:style=bold",
+    "Arial:pixelsize=16:style=bold",
 };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "monospace:size=10";
