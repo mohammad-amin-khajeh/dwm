@@ -906,7 +906,7 @@ static const char *statuscmd[] = { "/bin/sh", "-c", NULL, NULL };
 #if ON_EMPTY_KEYS_PATCH
 static const char* yazicmd[]      = {"st", "-e", "yazi", NULL};
 static const char* firefoxcmd[]   = {"firefox", NULL};
-static const char* telegramcmd[]  = {"telegram-desktop", NULL};
+static const char* telegramcmd[]  = {"Telegram", NULL};
 static const char* stcmd[]        = {"st", NULL};
 static const char* tmuxcmd[]      = {"st", "-e", "launch_tmux.sh", NULL};
 static const char* ankicmd[]      = {"anki", NULL};
