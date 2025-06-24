@@ -508,9 +508,10 @@ static const Rule rules[] = {
 	RULE(.title = "^Browse.*",             .isfloating = 1)
 	RULE(.class = "Lxappearance",          .isfloating = 1)
 	RULE(.class = "termFloat",             .isfloating = 1)
+	RULE(.title = "qalcFloat",             .isfloating = 1)
 	RULE(.class = "xterm-256color",        .isterminal = 1)
 	RULE(.class = "st-256color",           .isterminal = 1)
-	RULE(.class ="TelegramDesktop",        .tags = 4)
+	RULE(.class =" TelegramDesktop",       .tags = 4)
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	// RULE(.class = "Firefox", .tags = 1 << 7)
 	#if RENAMED_SCRATCHPADS_PATCH
