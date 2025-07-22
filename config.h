@@ -911,7 +911,7 @@ static const char* telegramcmd[]  = {"Telegram", NULL};
 static const char* stcmd[]        = {"st", NULL};
 static const char* tmuxcmd[]      = {"st", "-e", "launch_tmux.sh", NULL};
 static const char* ankicmd[]      = {"anki", NULL};
-static const char* nekoraycmd[]   = {"nekoray", NULL};
+static const char* thronecmd[]   = {"throne", NULL};
 static const Key on_empty_keys[] = {
 	/* modifier key            function                argument */
 	{ MODKEY,        XK_e,          spawn,                  {.v = yazicmd } },
@@ -920,7 +920,7 @@ static const Key on_empty_keys[] = {
 	{ MODKEY,        XK_f,          spawn,                  {.v = stcmd } },
 	{ MODKEY,        XK_c,          spawn,                  {.v = tmuxcmd } },
 	{ MODKEY,        XK_a,          spawn,                  {.v = ankicmd } },
-	{ MODKEY,        XK_z,          spawn,                  {.v = nekoraycmd } },
+	{ MODKEY,        XK_z,          spawn,                  {.v = thronecmd } },
 };
 #endif // ON_EMPTY_KEYS_PATCH
 
